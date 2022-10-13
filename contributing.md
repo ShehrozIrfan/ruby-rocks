@@ -1,7 +1,7 @@
-# Ruby Community
-
+# Ruby Rocks
 # How to contribute
 1. You can contribute in terms of Code
+   - Write program/code which solves any problem using Ruby.
 ## Following the procedure you can make your contribution with ease.
 ### Step 0
 Star and Fork this repository
