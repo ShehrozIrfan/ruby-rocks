@@ -1,7 +1,7 @@
 class SwapExample
     def swapNumbers
-        a = 3
-        b = 6
+        a = 10
+        b = 20
 
         puts("The value of a before swap is " + a.to_s)
         puts("The value of b before swap is " + b.to_s)
