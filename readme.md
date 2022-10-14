@@ -12,6 +12,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
 ## Contributors ✨
 Our Valuable Contributors
 <br/>
+
 <a href="https://github.com/ShehrozIrfan/ruby-rocks/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ShehrozIrfan/ruby-rocks"/>
 </a>
