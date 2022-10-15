@@ -10,9 +10,6 @@
 Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community! Four quality pull requests must be submitted to public GitHub repositories. You can sign up anytime between October 1 and October 31.
 
 ## Contributors ✨
-Our Valuable Contributors
-<br/>
-
 <a href="https://github.com/ShehrozIrfan/ruby-rocks/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ShehrozIrfan/ruby-rocks"/>
 </a>
