@@ -15,3 +15,10 @@ while(cnt<num2)
 end
         
 print "Multiplication is: ",mul;
+
+ puts "Enter first number:"
+ input1 = Integer(gets.chomp)
+ puts "Enter second number:"
+ input2 = Integer(gets.chomp)
+ result = input1 * input2
+ puts "Multiplication of given two numbers is: #{result}"
