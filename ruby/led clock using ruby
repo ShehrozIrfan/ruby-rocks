@@ -1,0 +1,49 @@
+# led.rb
+
+def compute_brightness(units)
+  cells_per_number = [ 6, 2, 5, 5, 4, 5, 6, 3, 7, 6 ]
+
+  units.each_with_object({}) do |t, hash|
+    digits = t.split('')
+    hash[t] = digits.map { |d| cells_per_number[d.to_i] }.reduce(:+)
+  end
+end
+
+def compute_brightest_time(hours_hash, minutes_hash)
+  Time.new(2016, 1, 1, hours_hash.key(hours_hash.values.max), minutes_hash.key(minutes_hash.values.max))
+end
+
+def compute_darkest_time(hours_hash, minutes_hash)
+  Time.new(2016, 1, 1, hours_hash.key(hours_hash.values.min), minutes_hash.key(minutes_hash.values.min))
+end
+
+hours_hash = compute_brightness('0'..'23')
+minutes_hash = compute_brightness('00'..'59')
+
+brightest_time = compute_brightest_time(hours_hash, minutes_hash)
+darkest_time = compute_darkest_time(hours_hash, minutes_hash)
+
+puts "With no leading zeroes:"
+puts "Brightest: #{brightest_time.strftime('%H:%M')}"
+puts "Darkest: #{darkest_time.strftime('%l:%M')}"
+puts "Diff: #{(brightest_time - darkest_time).abs}s"
+
+hours_hash = compute_brightness('00'..'23')
+
+brightest_time = compute_brightest_time(hours_hash, minutes_hash)
+darkest_time = compute_darkest_time(hours_hash, minutes_hash)
+
+puts "\nWith leading digit always included:"
+puts "Brightest: #{brightest_time.strftime('%H:%M')}"
+puts "Darkest: #{darkest_time.strftime('%H:%M')}"
+puts "Diff: #{(brightest_time - darkest_time).abs}s"
+
+# With no leading zeroes:
+# Brightest: 20:08
+# Darkest:  1:11
+# Diff: 68220.0s
+
+# With leading digit always included:
+# Brightest: 08:08
+# Darkest: 11:11
+# Diff: 10980.0s
