@@ -1,0 +1,6 @@
+print "Enter radius: ";
+radius = gets.chomp.to_i;  
+
+perimeter = 2* 3.14 * radius;
+
+print "Perimeter of circle: ",perimeter;
