@@ -1,7 +1,9 @@
 # Ruby Rocks
 # How to contribute
-1. You can contribute in terms of Code
+1. You can contribute in terms of Code:
    - Write program/code which solves any problem using Ruby.
+2. You can contribute in terms of documentation:
+   - By adding the documentation for any `Ruby concept`
 ## Following the procedure you can make your contribution with ease.
 ### Step 0
 Star and Fork this repository
