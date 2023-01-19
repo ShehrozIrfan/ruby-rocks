@@ -1,5 +1,6 @@
 # Ruby Rocks
 - This is the repository for beginners so that they can use this repository to make their first contribution to an open source project on GitHub. You can  solve any programming problem using Ruby and add to this repository.
+- This repository was also part of Hacktoberfest-2022
 
 ## How to contribute
 Visit [CONTRIBUTING.md](https://github.com/ShehrozIrfan/ruby-rocks/blob/first-ruby-code/contributing.md) for contribution to this project.
