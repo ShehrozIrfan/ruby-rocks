@@ -20,6 +20,12 @@ Visit [LEARN.md](https://github.com/ShehrozIrfan/ruby-rocks/blob/first-ruby-code
   Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community! Four quality pull requests must be submitted to public GitHub repositories. You can [sign up](https://hacktoberfest.com/) anytime between October 1 and October 31.
 </p>
 
+## Our Contributors - Hacktoberfest 2023
+
+<a href="https://github.com/ShehrozIrfan/ruby-rocks/graphs/contributors">
+ <img src="https://contrib.rocks/image?repo=ShehrozIrfan/ruby-rocks"/>
+</a>
+
 ## Hacktoberfest 2022
 This repository was also part of hacktoberfest 2022.
 
@@ -27,7 +33,7 @@ This repository was also part of hacktoberfest 2022.
 
 --- 
 
-## Our Contributors
+## Our Contributors - Hacktoberfest 2022
 <a href="https://github.com/ShehrozIrfan/ruby-rocks/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=ShehrozIrfan/ruby-rocks"/>
 </a>
