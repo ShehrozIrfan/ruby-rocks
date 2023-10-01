@@ -4,6 +4,9 @@
    - Write program/code which solves any problem using Ruby.
 2. You can contribute in terms of documentation:
    - By adding the documentation for any `Ruby concept`
+     
+<i>Note: Add your contributions to `ruby-hacktoberfest-2023` folder.</i>
+
 ## Following the procedure you can make your contribution with ease.
 ### Step 0
 Star and Fork this repository
