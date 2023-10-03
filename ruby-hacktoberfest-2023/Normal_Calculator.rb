@@ -1,4 +1,3 @@
-@@ -0,0 +1,41 @@
 puts ("Enter first number")
 z = gets.chomp.to_f
 puts ("Enter operation")
