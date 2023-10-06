@@ -1,0 +1,27 @@
+name: Update contributors list
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+
+jobs:
+  update-contributors-list:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get list of contributors
+        run: |
+          git shortlog -sn --since="2023-10-06" > contributors.md
+
+      - name: Add new contributors to list
+        run: |
+          cat contributors.md | sort -u > contributors.new.md
+          mv contributors.new.md contributors.md
+
+      - name: Commit changes
+        run: |
+          git add contributors.md
+          git commit -m "Update contributors list"
+          git push origin main
