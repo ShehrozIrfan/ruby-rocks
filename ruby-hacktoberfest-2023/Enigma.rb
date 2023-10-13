@@ -102,5 +102,4 @@ def main
     puts "Sorry, you ran out of guesses."
   end
 end
-
 main
